@@ -5,17 +5,18 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="../">
+     <link rel="stylesheet" href="../src/CSS/style 8.css">
      <title>Resume</title>
 
 </head>
 
 <body>
- <!----navigation menu-->
 
      <header>
 
           <!-----header area-->
+          <div class="tab">
+               <div class="head image">
                     <picture>
                          <source srcset="../src/Images/small.jpg" media="(max-width: 600px)">
                          <source srcset="../src/Images/medium.jpg" media="(max-width: 900px)">
@@ -26,26 +27,24 @@
                     <h3>Contact Details</h3>
                     <P> <strong>Email address:</strong> masengolga@gmail.com</P>
                     <a href="https://www.linkedin.com/" target="_blank"> Linkedin</a>
-               
+               </div>
+
+               <!----navigation menu-->
+               <nav>
+                    <ul>
+                         <h3>Menu</h3>
+                         <li><a href="#qualification">Qualification</a></li>
+                         <li><a href="#jobs">Jobs</a></li>
+                         <li><a href="#skills">skills</a></li>
+                    </ul>
+               </nav>
+          </div>
           <br><br>
 
      </header>
 
-     <!-----navigation bar-->
-          <div class="menu">
-               <nav>
-              <ul>
-                   <h3>Menu</h3>
-                   <li><a href="#qualification">Qualification</a></li>
-                   <li><a href="#jobs">Jobs</a></li>
-                   <li><a href="#skills">skills</a></li>
-                   <li><a href="#get in touch">Get in touch</a></li>
-              </ul>
-          </nav>
-          </div>
-     
-     <!----section area(resume explained)-->
-     <section>
+     <!----main area(resume explained)-->
+     <main>
           <div class="container">
                <div class="col1">
                     <h3 class="intro">Intro to Web at <a href="https://www.codespace.co.za" target="_blank">CodeSpace
@@ -88,13 +87,13 @@
 
           </div>
           </div>
-     </section>
+     </main>
      <footer>
           <div class="form">
                <form action="https://formsubmit.co/masengolga@gmail.com" method="POST" target="_blank">
                     <br>
 
-                    <h3 id="get in touch">Get in touch:</h3>
+                    <h3>Get in touch:</h3>
                     <label for="name">Name:</label>
                     <input type="text" placeholder="Enter your full name" required>
                     <br><br>
