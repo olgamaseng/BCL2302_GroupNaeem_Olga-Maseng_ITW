@@ -19,13 +19,14 @@ img{
     height: 200px;
     width: 250px;
     border-radius: 100%;
+    padding-top: 20px;
     
 }
 
 
 
 .container{
-    display: flexbox;
+    display: inline-flexbox;
     text-align: left;
     text-align: wrap;
     margin: 25px;
@@ -76,24 +77,30 @@ border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     line-height: 15px;
+    font-size: large;
     color: white;
-    
+   
 }
 
-ul {
+ nav ul {
       list-style-type: none;
-      margin: 0;
-      padding: 0;
-      float: topright;
+      float: right;
+      font-size: larger;
+      border-spacing: 10px;
+
       }
     
-li{
+nav li{
      display: inline;
-     width: 100px;
+    
     
      }
     
     nav a {
-        padding: 10px;
-        background-color: #dddddd;
+        padding: 5px;
+       color: white;
       }
+    
+h1 h2 h3{
+    text-decoration: underline;
+}
